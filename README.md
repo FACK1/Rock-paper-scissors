@@ -20,7 +20,6 @@
     - components
       - Computer Part
       - Palyer Part
-        - choices
   - **.eslint**
   - **.babelrc**
   - **.gitignore**
@@ -29,7 +28,7 @@
 - First, make sure you have NodeJS installed on your machine.
 - Run ```npm install``` inside the folder.
 - The following commands are available:
-  - ``` npm run dev ``` - starts the dev server on port 3000
+  - ``` npm run dev ``` - starts the dev server on port 1234
   
 # Prototype to style 
 ![1](https://user-images.githubusercontent.com/35188117/51908269-07a6ff80-23d2-11e9-929f-5e1134dd916e.jpg)
