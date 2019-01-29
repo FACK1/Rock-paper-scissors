@@ -1,10 +1,12 @@
 # Rock-paper-scissors
 - The rock paper scissors game in ReactJS , Allow user to choose one of ( Rock-paper-scissors ) to compare with computer chice   and see the game result (Win , lose , Drow ) .  
 
+# RPS website:() 
+
 # User Journeys 
-  - User story: As I user can choice one of ( rock, paper, scissor) .
-  - User Story : As a User I can see The Result (Win , lose , Drow ) .
-  - User Story : As a User I can Paly again amd start game .
+  - User story: As I Player I can choice one of ( rock, paper, scissor).
+  - User Story : As a Player I can see The Result (Win , lose , Drow ).
+  - User Story : As a Player I can start and try again the game.
   
 # File Structure
   - **public**
@@ -29,5 +31,5 @@
   - ``` npm run dev ``` - starts the dev server on port 3000
   
 # Team Member :
- - Amin Talahmeh
- - Sama Amro
+ - [Amin Talahmeh]()
+ - [Sama Amro]()
