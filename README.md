@@ -18,8 +18,9 @@
     - index.js
     - app.js
     - components
-      - C1
-      - C2
+      - Computer Part
+      - Palyer Part
+        - choices
   - **.eslint**
   - **.babelrc**
   - **.gitignore**
