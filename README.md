@@ -19,7 +19,7 @@
     - app.js
     - components
       - Computer Part
-      - Palyer Part
+      - Player Part
   - **.eslint**
   - **.babelrc**
   - **.gitignore**
