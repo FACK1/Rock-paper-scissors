@@ -1,7 +1,7 @@
 {
   "name": "Rock-paper-scissors",
   "version": "1.0.0",
-  "description": "",
+  "description": "- The rock paper scissors game in ReactJS , Allow user to choose one of ( Rock-paper-scissors ) to compare with computer chice   and see the game result (Win , lose , Drow ) .",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
