@@ -4,7 +4,9 @@
   "description": "- The rock paper scissors game in ReactJS , Allow user to choose one of ( Rock-paper-scissors ) to compare with computer chice   and see the game result (Win , lose , Drow ) .",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./public/index.html",
+    "lint": "eslint src/"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,20 @@
   },
   "homepage": "https://github.com/FACK1/Rock-paper-scissors#readme",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-react": "^7.12.4",
     "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "eslint-config-react-minimal": "^1.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }
