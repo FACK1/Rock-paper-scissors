@@ -30,6 +30,9 @@
 - The following commands are available:
   - ``` npm run dev ``` - starts the dev server on port 3000
   
+# Prototype to style 
+![1](https://user-images.githubusercontent.com/35188117/51908269-07a6ff80-23d2-11e9-929f-5e1134dd916e.jpg)
+  
 # Team Member :
  - [Amin Talahmeh]()
  - [Sama Amro]()
