@@ -5,10 +5,8 @@ import rock from './assets/rock.png';
 import scissors from './assets/scissors.png';
 import defaultImg from './assets/defaultImg.jpg';
 
-import {getRandomChoice} from '../../utils';
-
-const Computer = () =>{
-const choice = getRandomChoice();
+const Computer = (props) =>{
+const choice = props.computerChoice;
 
   if (choice === 'paper') {
     return (
