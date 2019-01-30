@@ -1,5 +1,5 @@
 # Rock-paper-scissors
-- The rock paper scissors game in ReactJS , Allow user to choose one of ( Rock-paper-scissors ) to compare with computer chice   and see the game result (Win , lose , Drow ) .  
+The rock paper scissors game in ReactJS , Allow user to choose one of ( Rock-paper-scissors ) to compare with computer chice   and see the game result (Win , lose , Drow ) .  
 
 # RPS website 
 
