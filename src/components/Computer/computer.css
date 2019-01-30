@@ -1,5 +1,18 @@
 .computer{
-  color: red;
-  background-color: Blue;
-  font-size: 50pt;
+  margin: 20px;
+  background-color: gray;
+}
+
+.computer h1{
+  text-align: center;
+  font-family: 'Ultra', serif;
+  background-color: gray;
+  color: #660033;
+}
+
+.computer img{
+  
+  margin: 20px;
+  width: 200px;
+  height: 200px;
 }
