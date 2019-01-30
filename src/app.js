@@ -16,6 +16,7 @@ class App extends Component {
     super();
     this.state = initialState;
     this.comChoice=null;
+    this.res=null;
     this.onPlayerChoiceClick = this.onPlayerChoiceClick.bind(this);
   }
 
@@ -28,19 +29,23 @@ class App extends Component {
       else if (result === 'draws') return { draws: prevState[result] + 1 }
       else if (result === 'losses') return { losses: prevState[result] + 1 }
     },()=>{
-      if (this.state.wins === 5 || this.state.draws === 5 || this.state.losses === 5 ) {
+
+      if (this.state.wins == 5){
+        this.state.res = 'win';
+      } else if(this.state.draws == 5){
+        this.state.res = 'draw';
+      } else if(this.state.losses == 5 ){
+        this.state.res = 'lose';
+      }
+      else if(this.state.wins >= 5 || this.state.draws >= 5 || this.state.losses >= 5){
         window.location.reload();
-    }
-    });
-
-
+      }
+  });
   }
-
   render() {
-
     return (<div>
       <Header />
-      <Computer computerChoice={this.comChoice} />
+      <Computer computerChoice={this.comChoice} res={this.state.res} />
       <Result
           wins={this.state.wins}
           losses={this.state.losses}
