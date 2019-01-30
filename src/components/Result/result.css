@@ -10,8 +10,6 @@
  li{
   list-style: none;
   margin: 20px;
-  margin-left: 16%;
-
 }
 
 .res{
@@ -20,4 +18,16 @@
   background-color: #ccfbf9;
   padding: 15px;
   margin-right: 15px;
+}
+.playAgain{
+  color: #30638b;
+  font-size:20pt;
+  background-color: #ccfbf9;
+  padding: 15px;
+  margin-right: 15px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-left: 12%;
+  border-color: #30638b;
+  font-weight: bold;
 }
