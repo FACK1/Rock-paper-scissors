@@ -7,7 +7,6 @@ export function getRandomChoice() {
 export function getWinner(choice, computerChoice) {
 
   if (choice === computerChoice) return 'draws';
-
   else if (
       (computerChoice === 'scissors' && choice === 'rock')  || (computerChoice === 'paper' && choice === 'scissors') || (computerChoice === 'rock' && choice === 'paper')
     )
