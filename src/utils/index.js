@@ -14,3 +14,7 @@ export function getWinner(choice, computerChoice) {
 
   else return 'losses';
 }
+
+export function refresh(){
+  window.location.reload();
+}
