@@ -20,15 +20,20 @@ class App extends Component {
   }
 
   onPlayerChoiceClick(choice) {
-    const computerChoice=getRandomChoice();
-    this.comChoice=computerChoice;
+    this.comChoice=getRandomChoice();
     const result = getWinner(choice,this.comChoice );
 
     this.setState((prevState) => {
       if (result === 'wins') return { wins: prevState[result] + 1 }
       else if (result === 'draws') return { draws: prevState[result] + 1 }
       else if (result === 'losses') return { losses: prevState[result] + 1 }
+    },()=>{
+      if (this.state.wins === 5 || this.state.draws === 5 || this.state.losses === 5 ) {
+        window.location.reload();
+    }
     });
+
+
   }
 
   render() {
