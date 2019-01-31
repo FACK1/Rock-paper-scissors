@@ -4,8 +4,8 @@ The Rock Paper Scissors game in ReactJS , Allow user to choose one of ( Rock-pap
 # Our Website Link : [Rock Paper Scissors website](https://rocks-papers-scissors.netlify.com/) 
 
 # User Journeys 
-  - User story: As I Player I can choice one of ( rock, paper, scissor).
-  - User Story : As a Player I can see The Result (Win , lose , Drow ).
+  - User story: As I Player I can chooce one of ( rock, paper, scissor).
+  - User Story : As a Player I can see The Result (Win , lose , Draw ).
   - User Story : As a Player I can start and try again the game.
   - User Story : As a user my game finished with max score 5 with any state.
   
