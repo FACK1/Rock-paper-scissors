@@ -9,6 +9,7 @@ const initialState = {
   wins: 0,
   losses: 0,
   draws: 0,
+  gameOver:false
 }
 
 class App extends Component {
@@ -21,6 +22,9 @@ class App extends Component {
   }
 
   onPlayerChoiceClick(choice) {
+    if(this.state.gameOver){
+      return
+    }
     this.comChoice=getRandomChoice();
     const result = getWinner(choice,this.comChoice );
 
@@ -30,15 +34,12 @@ class App extends Component {
       else if (result === 'losses') return { losses: prevState[result] + 1 }
     },()=>{
 
-      if (this.state.wins == 5){
-        this.state.res = 'win';
+      if (this.state.wins == 5 ){
+        this.setState({res:'win',gameOver:true})
       } else if(this.state.draws == 5){
-        this.state.res = 'draw';
+        this.setState({res:'draw',gameOver:true})
       } else if(this.state.losses == 5 ){
-        this.state.res = 'lose';
-      }
-      else if(this.state.wins >= 5 || this.state.draws >= 5 || this.state.losses >= 5){
-        window.location.reload();
+        this.setState({res:'lose',gameOver:true})
       }
   });
   }
